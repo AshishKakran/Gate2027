@@ -1,0 +1,183 @@
+Date,Start,End,Summary,Description
+2026-04-13,2026-04-13T08:00:00,2026-04-13T10:00:00,2026-04-13: Propositional logic; truth tables (2h),1h theory + 1h practice
+2026-04-14,2026-04-14T08:00:00,2026-04-14T10:00:00,2026-04-14: Predicate logic; quantifiers; practice (2h),1h theory + 1h practice
+2026-04-15,2026-04-15T08:00:00,2026-04-15T10:00:00,2026-04-15: Sets, subsets, set operations; Venn problems (2h),1h theory + 1h practice
+2026-04-16,2026-04-16T08:00:00,2026-04-16T10:00:00,2026-04-16: Relations: properties, equivalence relations (2h),1h theory + 1h practice
+2026-04-17,2026-04-17T08:00:00,2026-04-17T10:00:00,2026-04-17: Functions: injective/surjective, inverses, composition (2h),1h theory + 1h practice
+2026-04-18,2026-04-18T09:00:00,2026-04-18T12:00:00,2026-04-18: Subject practice: logic + sets problem set (3h),3h subject practice
+2026-04-19,2026-04-19T09:00:00,2026-04-19T12:00:00,2026-04-19: Mini mock: mixed logic/sets + review (3h),3h mini mock + review
+2026-04-20,2026-04-20T08:00:00,2026-04-20T10:00:00,2026-04-20: Partial orders and posets (2h),1h theory + 1h practice
+2026-04-21,2026-04-21T08:00:00,2026-04-21T10:00:00,2026-04-21: Lattices — join/meet, distributive and modular (2h),1h theory + 1h practice
+2026-04-22,2026-04-22T08:00:00,2026-04-22T10:00:00,2026-04-22: Monoids — definition and examples (2h),1h theory + 1h practice
+2026-04-23,2026-04-23T08:00:00,2026-04-23T10:00:00,2026-04-23: Groups — axioms, subgroups, cyclic groups (2h),1h theory + 1h practice
+2026-04-24,2026-04-24T08:00:00,2026-04-24T10:00:00,2026-04-24: Algebraic structures consolidation (2h),1h theory + 1h practice
+2026-04-25,2026-04-25T09:00:00,2026-04-25T12:00:00,2026-04-25: Subject practice: posets/lattices/monoids/groups (3h),3h subject practice
+2026-04-26,2026-04-26T09:00:00,2026-04-26T12:00:00,2026-04-26: Mini mock: algebraic structures + review (3h),3h mini mock + review
+2026-04-27,2026-04-27T08:00:00,2026-04-27T10:00:00,2026-04-27: Graph basics — definitions, representations (2h),1h theory + 1h practice
+2026-04-28,2026-04-28T08:00:00,2026-04-28T10:00:00,2026-04-28: Connectivity, paths, cycles (2h),1h theory + 1h practice
+2026-04-29,2026-04-29T08:00:00,2026-04-29T10:00:00,2026-04-29: Matching — bipartite matching, Hall’s theorem (2h),1h theory + 1h practice
+2026-04-30,2026-04-30T08:00:00,2026-04-30T10:00:00,2026-04-30: Graph colouring basics; chromatic number (2h),1h theory + 1h practice
+2026-05-01,2026-05-01T08:00:00,2026-05-01T10:00:00,2026-05-01: Generating functions — intro and examples (2h),1h theory + 1h practice
+2026-05-02,2026-05-02T09:00:00,2026-05-02T12:00:00,2026-05-02: Subject practice: graphs + combinatorics (3h),3h subject practice
+2026-05-03,2026-05-03T09:00:00,2026-05-03T12:00:00,2026-05-03: Mini mock: graphs/combinatorics + review (3h),3h mini mock + review
+2026-05-04,2026-05-04T08:00:00,2026-05-04T10:00:00,2026-05-04: Counting techniques — permutations/combinations (2h),1h theory + 1h practice
+2026-05-05,2026-05-05T08:00:00,2026-05-05T10:00:00,2026-05-05: Recurrence relations — homogeneous/non-homogeneous (2h),1h theory + 1h practice
+2026-05-06,2026-05-06T08:00:00,2026-05-06T10:00:00,2026-05-06: Generating functions — ordinary GFs (2h),1h theory + 1h practice
+2026-05-07,2026-05-07T08:00:00,2026-05-07T10:00:00,2026-05-07: Matrices, operations, determinants (2h),1h theory + 1h practice
+2026-05-08,2026-05-08T08:00:00,2026-05-08T10:00:00,2026-05-08: Systems of linear equations; Gaussian elimination (2h),1h theory + 1h practice
+2026-05-09,2026-05-09T09:00:00,2026-05-09T12:00:00,2026-05-09: Subject practice: combinatorics + linear algebra (3h),3h subject practice
+2026-05-10,2026-05-10T09:00:00,2026-05-10T12:00:00,2026-05-10: Mini mock: math heavy + review (3h),3h mini mock + review
+2026-05-11,2026-05-11T08:00:00,2026-05-11T10:00:00,2026-05-11: Eigenvalues and eigenvectors; diagonalization (2h),1h theory + 1h practice
+2026-05-12,2026-05-12T08:00:00,2026-05-12T10:00:00,2026-05-12: LU decomposition; applications (2h),1h theory + 1h practice
+2026-05-13,2026-05-13T08:00:00,2026-05-13T10:00:00,2026-05-13: Limits, continuity, differentiability basics (2h),1h theory + 1h practice
+2026-05-14,2026-05-14T08:00:00,2026-05-14T10:00:00,2026-05-14: Maxima/minima; mean value theorem (2h),1h theory + 1h practice
+2026-05-15,2026-05-15T08:00:00,2026-05-15T10:00:00,2026-05-15: Integration techniques; definite integrals (2h),1h theory + 1h practice
+2026-05-16,2026-05-16T09:00:00,2026-05-16T12:00:00,2026-05-16: Subject practice: linear algebra + calculus problems (3h),3h subject practice
+2026-05-17,2026-05-17T09:00:00,2026-05-17T12:00:00,2026-05-17: Mini mock: calculus + linear algebra + review (3h),3h mini mock + review
+2026-05-18,2026-05-18T08:00:00,2026-05-18T10:00:00,2026-05-18: Random variables: expectation, variance (2h),1h theory + 1h practice
+2026-05-19,2026-05-19T08:00:00,2026-05-19T10:00:00,2026-05-19: Uniform and normal distributions (2h),1h theory + 1h practice
+2026-05-20,2026-05-20T08:00:00,2026-05-20T10:00:00,2026-05-20: Exponential and Poisson distributions (2h),1h theory + 1h practice
+2026-05-21,2026-05-21T08:00:00,2026-05-21T10:00:00,2026-05-21: Binomial distribution and approximations (2h),1h theory + 1h practice
+2026-05-22,2026-05-22T08:00:00,2026-05-22T10:00:00,2026-05-22: Conditional probability and Bayes theorem (2h),1h theory + 1h practice
+2026-05-23,2026-05-23T09:00:00,2026-05-23T12:00:00,2026-05-23: Subject practice: probability + stats problem set (3h),3h subject practice
+2026-05-24,2026-05-24T09:00:00,2026-05-24T12:00:00,2026-05-24: Mini mock: probability/statistics + review (3h),3h mini mock + review
+2026-05-25,2026-05-25T08:00:00,2026-05-25T10:00:00,2026-05-25: Boolean algebra fundamentals; identities (2h),1h theory + 1h practice
+2026-05-26,2026-05-26T08:00:00,2026-05-26T10:00:00,2026-05-26: Logic minimization: Karnaugh maps (2h),1h theory + 1h practice
+2026-05-27,2026-05-27T08:00:00,2026-05-27T10:00:00,2026-05-27: Combinational circuits: adders, multiplexers (2h),1h theory + 1h practice
+2026-05-28,2026-05-28T08:00:00,2026-05-28T10:00:00,2026-05-28: Number representations: signed numbers, two's complement (2h),1h theory + 1h practice
+2026-05-29,2026-05-29T08:00:00,2026-05-29T10:00:00,2026-05-29: Computer arithmetic: fixed and floating point basics (2h),1h theory + 1h practice
+2026-05-30,2026-05-30T09:00:00,2026-05-30T12:00:00,2026-05-30: Subject practice: minimization + arithmetic problems (3h),3h subject practice
+2026-05-31,2026-05-31T09:00:00,2026-05-31T12:00:00,2026-05-31: Mini mock: digital logic + review (3h),3h mini mock + review
+2026-06-01,2026-06-01T08:00:00,2026-06-01T10:00:00,2026-06-01: Sequential circuits: latches and flip-flops (2h),1h theory + 1h practice
+2026-06-02,2026-06-02T08:00:00,2026-06-02T10:00:00,2026-06-02: Counters and registers; shift registers (2h),1h theory + 1h practice
+2026-06-03,2026-06-03T08:00:00,2026-06-03T10:00:00,2026-06-03: FSM design: Mealy vs Moore (2h),1h theory + 1h practice
+2026-06-04,2026-06-04T08:00:00,2026-06-04T10:00:00,2026-06-04: Timing, hazards, propagation delay (2h),1h theory + 1h practice
+2026-06-05,2026-06-05T08:00:00,2026-06-05T10:00:00,2026-06-05: Sequential circuit PYQs and practice (2h),1h theory + 1h practice
+2026-06-06,2026-06-06T09:00:00,2026-06-06T12:00:00,2026-06-06: Subject practice: sequential circuit design (3h),3h subject practice
+2026-06-07,2026-06-07T09:00:00,2026-06-07T12:00:00,2026-06-07: Mini mock: digital logic full + review (3h),3h mini mock + review
+2026-06-08,2026-06-08T08:00:00,2026-06-08T10:00:00,2026-06-08: Machine instructions and addressing modes (2h),1h theory + 1h practice
+2026-06-09,2026-06-09T08:00:00,2026-06-09T10:00:00,2026-06-09: ALU design and arithmetic circuits (2h),1h theory + 1h practice
+2026-06-10,2026-06-10T08:00:00,2026-06-10T10:00:00,2026-06-10: Datapath and control unit basics (2h),1h theory + 1h practice
+2026-06-11,2026-06-11T08:00:00,2026-06-11T10:00:00,2026-06-11: Instruction set examples; RISC vs CISC (2h),1h theory + 1h practice
+2026-06-12,2026-06-12T08:00:00,2026-06-12T10:00:00,2026-06-12: Instruction execution examples and timing (2h),1h theory + 1h practice
+2026-06-13,2026-06-13T09:00:00,2026-06-13T12:00:00,2026-06-13: Subject practice: datapath/control problems (3h),3h subject practice
+2026-06-14,2026-06-14T09:00:00,2026-06-14T12:00:00,2026-06-14: Mini mock: computer organization + review (3h),3h mini mock + review
+2026-06-15,2026-06-15T08:00:00,2026-06-15T10:00:00,2026-06-15: Instruction pipelining basics (2h),1h theory + 1h practice
+2026-06-16,2026-06-16T08:00:00,2026-06-16T10:00:00,2026-06-16: Pipeline hazards and forwarding (2h),1h theory + 1h practice
+2026-06-17,2026-06-17T08:00:00,2026-06-17T10:00:00,2026-06-17: Cache basics: mapping, hits/misses (2h),1h theory + 1h practice
+2026-06-18,2026-06-18T08:00:00,2026-06-18T10:00:00,2026-06-18: Cache performance and replacement policies (2h),1h theory + 1h practice
+2026-06-19,2026-06-19T08:00:00,2026-06-19T10:00:00,2026-06-19: Memory hierarchy: main memory, secondary storage (2h),1h theory + 1h practice
+2026-06-20,2026-06-20T09:00:00,2026-06-20T12:00:00,2026-06-20: Subject practice: pipelining + cache problems (3h),3h subject practice
+2026-06-21,2026-06-21T09:00:00,2026-06-21T12:00:00,2026-06-21: Full mock: architecture + systems + review (3h),3h full mock + review
+2026-06-22,2026-06-22T08:00:00,2026-06-22T10:00:00,2026-06-22: I/O interfaces: interrupts, DMA (2h),1h theory + 1h practice
+2026-06-23,2026-06-23T08:00:00,2026-06-23T10:00:00,2026-06-23: Virtual memory basics; paging, segmentation (2h),1h theory + 1h practice
+2026-06-24,2026-06-24T08:00:00,2026-06-24T10:00:00,2026-06-24: TLBs and address translation (2h),1h theory + 1h practice
+2026-06-25,2026-06-25T08:00:00,2026-06-25T10:00:00,2026-06-25: Page replacement algorithms (2h),1h theory + 1h practice
+2026-06-26,2026-06-26T08:00:00,2026-06-26T10:00:00,2026-06-26: Architecture PYQs and consolidation (2h),1h theory + 1h practice
+2026-06-27,2026-06-27T09:00:00,2026-06-27T12:00:00,2026-06-27: Subject practice: mixed architecture problems (3h),3h subject practice
+2026-06-28,2026-06-28T09:00:00,2026-06-28T12:00:00,2026-06-28: Full mock: architecture + review (3h),3h full mock + review
+2026-06-29,2026-06-29T08:00:00,2026-06-29T10:00:00,2026-06-29: C language essentials: pointers, memory model (2h),1h theory + 1h practice
+2026-06-30,2026-06-30T08:00:00,2026-06-30T10:00:00,2026-06-30: Recursion patterns and examples (2h),1h theory + 1h practice
+2026-07-01,2026-07-01T08:00:00,2026-07-01T10:00:00,2026-07-01: Arrays and strings: algorithms and practice (2h),1h theory + 1h practice
+2026-07-02,2026-07-02T08:00:00,2026-07-02T10:00:00,2026-07-02: Stacks and queues: implementations and applications (2h),1h theory + 1h practice
+2026-07-03,2026-07-03T08:00:00,2026-07-03T10:00:00,2026-07-03: Small coding problems in C (2h),1h coding + 1h practice
+2026-07-04,2026-07-04T09:00:00,2026-07-04T12:00:00,2026-07-04: Subject practice: C + DS coding (3h),3h coding practice
+2026-07-05,2026-07-05T09:00:00,2026-07-05T12:00:00,2026-07-05: Mini mock: programming + DS + review (3h),3h mini mock + review
+2026-07-06,2026-07-06T08:00:00,2026-07-06T10:00:00,2026-07-06: Linked lists: singly/doubly/circular (2h),1h theory + 1h practice
+2026-07-07,2026-07-07T08:00:00,2026-07-07T10:00:00,2026-07-07: Trees: traversals and recursion (2h),1h theory + 1h practice
+2026-07-08,2026-07-08T08:00:00,2026-07-08T10:00:00,2026-07-08: Binary Search Trees: insert/delete/search (2h),1h theory + 1h practice
+2026-07-09,2026-07-09T08:00:00,2026-07-09T10:00:00,2026-07-09: Binary heaps and priority queues (2h),1h theory + 1h practice
+2026-07-10,2026-07-10T08:00:00,2026-07-10T10:00:00,2026-07-10: DS coding practice and edge cases (2h),1h coding + 1h practice
+2026-07-11,2026-07-11T09:00:00,2026-07-11T12:00:00,2026-07-11: Subject practice: trees + linked lists (3h),3h subject practice
+2026-07-12,2026-07-12T09:00:00,2026-07-12T12:00:00,2026-07-12: Mini mock: DS heavy + review (3h),3h mini mock + review
+2026-07-13,2026-07-13T08:00:00,2026-07-13T10:00:00,2026-07-13: Graph representations: adjacency list/matrix (2h),1h theory + 1h practice
+2026-07-14,2026-07-14T08:00:00,2026-07-14T10:00:00,2026-07-14: BFS and DFS: implementation & examples (2h),1h coding + 1h practice
+2026-07-15,2026-07-15T08:00:00,2026-07-15T10:00:00,2026-07-15: Dijkstra's algorithm: single-source shortest path (2h),1h theory + 1h practice
+2026-07-16,2026-07-16T08:00:00,2026-07-16T10:00:00,2026-07-16: Bellman-Ford and negative edges (2h),1h theory + 1h practice
+2026-07-17,2026-07-17T08:00:00,2026-07-17T10:00:00,2026-07-17: Hashing basics and collision resolution (2h),1h theory + 1h practice
+2026-07-18,2026-07-18T09:00:00,2026-07-18T12:00:00,2026-07-18: Subject practice: graphs + hashing problems (3h),3h subject practice
+2026-07-19,2026-07-19T09:00:00,2026-07-19T12:00:00,2026-07-19: Mini mock: graphs + basic algorithms + review (3h),3h mini mock + review
+2026-07-20,2026-07-20T08:00:00,2026-07-20T10:00:00,2026-07-20: Sorting algorithms: quicksort, mergesort (2h),1h theory + 1h practice
+2026-07-21,2026-07-21T08:00:00,2026-07-21T10:00:00,2026-07-21: Asymptotic analysis: Big-O, Big-Theta (2h),1h theory + 1h practice
+2026-07-22,2026-07-22T08:00:00,2026-07-22T10:00:00,2026-07-22: Greedy algorithms: examples and proofs (2h),1h theory + 1h practice
+2026-07-23,2026-07-23T08:00:00,2026-07-23T10:00:00,2026-07-23: Dynamic programming: memoization vs tabulation (2h),1h theory + 1h practice
+2026-07-24,2026-07-24T08:00:00,2026-07-24T10:00:00,2026-07-24: Divide and conquer patterns; Master theorem (2h),1h theory + 1h practice
+2026-07-25,2026-07-25T09:00:00,2026-07-25T12:00:00,2026-07-25: Subject practice: sorting + algorithm design problems (3h),3h subject practice
+2026-07-26,2026-07-26T09:00:00,2026-07-26T12:00:00,2026-07-26: Full mock: algorithms heavy + review (3h),3h full mock + review
+2026-07-27,2026-07-27T08:00:00,2026-07-27T10:00:00,2026-07-27: Minimum spanning trees: Kruskal, Prim (2h),1h theory + 1h practice
+2026-07-28,2026-07-28T08:00:00,2026-07-28T10:00:00,2026-07-28: All-pairs shortest paths: Floyd-Warshall (2h),1h theory + 1h practice
+2026-07-29,2026-07-29T08:00:00,2026-07-29T10:00:00,2026-07-29: Network flow basics: Ford-Fulkerson intro (2h),1h theory + 1h practice
+2026-07-30,2026-07-30T08:00:00,2026-07-30T10:00:00,2026-07-30: Amortized analysis and advanced hashing (2h),1h theory + 1h practice
+2026-07-31,2026-07-31T08:00:00,2026-07-31T10:00:00,2026-07-31: Algorithm PYQs and timed practice (2h),1h practice + 1h PYQs
+2026-08-01,2026-08-01T09:00:00,2026-08-01T12:00:00,2026-08-01: Subject practice: MST + shortest path + flow problems (3h),3h subject practice
+2026-08-02,2026-08-02T09:00:00,2026-08-02T12:00:00,2026-08-02: Full mock: algorithms + TOC + review (3h),3h full mock + review
+2026-08-03,2026-08-03T08:00:00,2026-08-03T10:00:00,2026-08-03: Regular expressions and finite automata (2h),1h theory + 1h practice
+2026-08-04,2026-08-04T08:00:00,2026-08-04T10:00:00,2026-08-04: DFA/NFA conversions; closure properties (2h),1h theory + 1h practice
+2026-08-05,2026-08-05T08:00:00,2026-08-05T10:00:00,2026-08-05: Pumping lemma for regular languages (2h),1h theory + 1h practice
+2026-08-06,2026-08-06T08:00:00,2026-08-06T10:00:00,2026-08-06: Context-free grammars; derivations (2h),1h theory + 1h practice
+2026-08-07,2026-08-07T08:00:00,2026-08-07T10:00:00,2026-08-07: Pushdown automata and CFG relations (2h),1h theory + 1h practice
+2026-08-08,2026-08-08T09:00:00,2026-08-08T12:00:00,2026-08-08: Subject practice: automata + grammars (3h),3h subject practice
+2026-08-09,2026-08-09T09:00:00,2026-08-09T12:00:00,2026-08-09: Mini mock: TOC fundamentals + review (3h),3h mini mock + review
+2026-08-10,2026-08-10T08:00:00,2026-08-10T10:00:00,2026-08-10: Turing machines: definitions and examples (2h),1h theory + 1h practice
+2026-08-11,2026-08-11T08:00:00,2026-08-11T10:00:00,2026-08-11: Decidability vs undecidability; reductions (2h),1h theory + 1h practice
+2026-08-12,2026-08-12T08:00:00,2026-08-12T10:00:00,2026-08-12: Closure properties for CFLs and recursive languages (2h),1h theory + 1h practice
+2026-08-13,2026-08-13T08:00:00,2026-08-13T10:00:00,2026-08-13: TOC practice PYQs and constructions (2h),1h practice + 1h PYQs
+2026-08-14,2026-08-14T08:00:00,2026-08-14T10:00:00,2026-08-14: Quick revision sheet for TOC (2h),1h revision + 1h practice
+2026-08-15,2026-08-15T09:00:00,2026-08-15T12:00:00,2026-08-15: Subject practice: TMs + undecidability problems (3h),3h subject practice
+2026-08-16,2026-08-16T09:00:00,2026-08-16T12:00:00,2026-08-16: Full mock: TOC + algorithms + review (3h),3h full mock + review
+2026-08-17,2026-08-17T08:00:00,2026-08-17T10:00:00,2026-08-17: Lexical analysis: tokens, regex, scanners (2h),1h theory + 1h practice
+2026-08-18,2026-08-18T08:00:00,2026-08-18T10:00:00,2026-08-18: Top-down parsing: recursive descent, LL(1) (2h),1h theory + 1h practice
+2026-08-19,2026-08-19T08:00:00,2026-08-19T10:00:00,2026-08-19: Bottom-up parsing: LR parsing basics (2h),1h theory + 1h practice
+2026-08-20,2026-08-20T08:00:00,2026-08-20T10:00:00,2026-08-20: Syntax-directed translation and semantic actions (2h),1h theory + 1h practice
+2026-08-21,2026-08-21T08:00:00,2026-08-21T10:00:00,2026-08-21: Parsing practice problems and PYQs (2h),1h practice + 1h PYQs
+2026-08-22,2026-08-22T09:00:00,2026-08-22T12:00:00,2026-08-22: Subject practice: lexical + parsing problems (3h),3h subject practice
+2026-08-23,2026-08-23T09:00:00,2026-08-23T12:00:00,2026-08-23: Mini mock: compiler design + review (3h),3h mini mock + review
+2026-08-24,2026-08-24T08:00:00,2026-08-24T10:00:00,2026-08-24: Intermediate code generation: TAC examples (2h),1h theory + 1h practice
+2026-08-25,2026-08-25T08:00:00,2026-08-25T10:00:00,2026-08-25: Runtime environments: activation records (2h),1h theory + 1h practice
+2026-08-26,2026-08-26T08:00:00,2026-08-26T10:00:00,2026-08-26: Local optimizations: constant propagation (2h),1h theory + 1h practice
+2026-08-27,2026-08-27T08:00:00,2026-08-27T10:00:00,2026-08-27: Data flow analysis: liveness, CSE (2h),1h theory + 1h practice
+2026-08-28,2026-08-28T08:00:00,2026-08-28T10:00:00,2026-08-28: Compiler PYQs and optimization practice (2h),1h practice + 1h PYQs
+2026-08-29,2026-08-29T09:00:00,2026-08-29T12:00:00,2026-08-29: Subject practice: code gen + optimizations (3h),3h subject practice
+2026-08-30,2026-08-30T09:00:00,2026-08-30T12:00:00,2026-08-30: Full mock: compiler + algorithms + review (3h),3h full mock + review
+2026-08-31,2026-08-31T08:00:00,2026-08-31T10:00:00,2026-08-31: Processes, threads, system calls (2h),1h theory + 1h practice
+2026-09-01,2026-09-01T08:00:00,2026-09-01T10:00:00,2026-09-01: Concurrency: critical sections, race conditions (2h),1h theory + 1h practice
+2026-09-02,2026-09-02T08:00:00,2026-09-02T10:00:00,2026-09-02: Synchronization primitives: semaphores, monitors (2h),1h theory + 1h practice
+2026-09-03,2026-09-03T08:00:00,2026-09-03T10:00:00,2026-09-03: Deadlock: detection, prevention, avoidance (2h),1h theory + 1h practice
+2026-09-04,2026-09-04T08:00:00,2026-09-04T10:00:00,2026-09-04: OS proofs and small design problems (2h),1h practice + 1h PYQs
+2026-09-05,2026-09-05T09:00:00,2026-09-05T12:00:00,2026-09-05: Subject practice: concurrency + deadlock (3h),3h subject practice
+2026-09-06,2026-09-06T09:00:00,2026-09-06T12:00:00,2026-09-06: Mini mock: OS + review (3h),3h mini mock + review
+2026-09-07,2026-09-07T08:00:00,2026-09-07T10:00:00,2026-09-07: CPU scheduling algorithms: FCFS, SJF, RR (2h),1h theory + 1h practice
+2026-09-08,2026-09-08T08:00:00,2026-09-08T10:00:00,2026-09-08: I/O scheduling and device management (2h),1h theory + 1h practice
+2026-09-09,2026-09-09T08:00:00,2026-09-09T10:00:00,2026-09-09: Memory management: paging, segmentation (2h),1h theory + 1h practice
+2026-09-10,2026-09-10T08:00:00,2026-09-10T10:00:00,2026-09-10: Virtual memory and page replacement algorithms (2h),1h theory + 1h practice
+2026-09-11,2026-09-11T08:00:00,2026-09-11T10:00:00,2026-09-11: File systems basics: inodes, allocation strategies (2h),1h theory + 1h practice
+2026-09-12,2026-09-12T09:00:00,2026-09-12T12:00:00,2026-09-12: Subject practice: scheduling + memory problems (3h),3h subject practice
+2026-09-13,2026-09-13T09:00:00,2026-09-13T12:00:00,2026-09-13: Full mock: OS + architecture + review (3h),3h full mock + review
+2026-09-14,2026-09-14T08:00:00,2026-09-14T10:00:00,2026-09-14: ER model and design; mapping ER to relations (2h),1h theory + 1h practice
+2026-09-15,2026-09-15T08:00:00,2026-09-15T10:00:00,2026-09-15: Relational algebra and tuple calculus basics (2h),1h theory + 1h practice
+2026-09-16,2026-09-16T08:00:00,2026-09-16T10:00:00,2026-09-16: SQL: SELECT, JOINs, subqueries, aggregation (2h),1h theory + 1h practice
+2026-09-17,2026-09-17T08:00:00,2026-09-17T10:00:00,2026-09-17: Integrity constraints and transactions intro (2h),1h theory + 1h practice
+2026-09-18,2026-09-18T08:00:00,2026-09-18T10:00:00,2026-09-18: Practice SQL queries and optimization basics (2h),1h practice + 1h PYQs
+2026-09-19,2026-09-19T09:00:00,2026-09-19T12:00:00,2026-09-19: Subject practice: ER + SQL problems (3h),3h subject practice
+2026-09-20,2026-09-20T09:00:00,2026-09-20T12:00:00,2026-09-20: Mini mock: databases + review (3h),3h mini mock + review
+2026-09-21,2026-09-21T08:00:00,2026-09-21T10:00:00,2026-09-21: Normal forms and normalization (1NF to BCNF) (2h),1h theory + 1h practice
+2026-09-22,2026-09-22T08:00:00,2026-09-22T10:00:00,2026-09-22: File organization and indexing: B-trees, B+ trees (2h),1h theory + 1h practice
+2026-09-23,2026-09-23T08:00:00,2026-09-23T10:00:00,2026-09-23: Transactions: ACID properties, serializability (2h),1h theory + 1h practice
+2026-09-24,2026-09-24T08:00:00,2026-09-24T10:00:00,2026-09-24: Concurrency control: locking, 2PL (2h),1h theory + 1h practice
+2026-09-25,2026-09-25T08:00:00,2026-09-25T10:00:00,2026-09-25: Recovery techniques: logs, checkpoints (2h),1h theory + 1h practice
+2026-09-26,2026-09-26T09:00:00,2026-09-26T12:00:00,2026-09-26: Subject practice: indexing + transactions (3h),3h subject practice
+2026-09-27,2026-09-27T09:00:00,2026-09-27T12:00:00,2026-09-27: Full mock: DB + systems + review (3h),3h full mock + review
+2026-09-28,2026-09-28T08:00:00,2026-09-28T10:00:00,2026-09-28: OSI and TCP/IP stacks overview (2h),1h theory + 1h practice
+2026-09-29,2026-09-29T08:00:00,2026-09-29T10:00:00,2026-09-29: Data link layer: framing, error detection (2h),1h theory + 1h practice
+2026-09-30,2026-09-30T08:00:00,2026-09-30T10:00:00,2026-09-30: MAC protocols and Ethernet basics (2h),1h theory + 1h practice
+2026-10-01,2026-10-01T08:00:00,2026-10-01T10:00:00,2026-10-01: Network layer: IP addressing, fragmentation (2h),1h theory + 1h practice
+2026-10-02,2026-10-02T08:00:00,2026-10-02T10:00:00,2026-10-02: CIDR notation and subnetting practice (2h),1h practice + 1h subnetting
+2026-10-03,2026-10-03T09:00:00,2026-10-03T12:00:00,2026-10-03: Subject practice: subnetting + link layer problems (3h),3h subject practice
+2026-10-04,2026-10-04T09:00:00,2026-10-04T12:00:00,2026-10-04: Mini mock: networks + review (3h),3h mini mock + review
+2026-10-05,2026-10-05T08:00:00,2026-10-05T10:00:00,2026-10-05: Routing algorithms: distance vector, link state (2h),1h theory + 1h practice
+2026-10-06,2026-10-06T08:00:00,2026-10-06T10:00:00,2026-10-06: Transport layer: UDP, TCP basics (2h),1h theory + 1h practice
+2026-10-07,2026-10-07T08:00:00,2026-10-07T10:00:00,2026-10-07: Flow control and congestion control (2h),1h theory + 1h practice
+2026-10-08,2026-10-08T08:00:00,2026-10-08T10:00:00,2026-10-08: Application layer: DNS, HTTP, SMTP, FTP (2h),1h theory + 1h practice
+2026-10-09,2026-10-09T08:00:00,2026-10-09T10:00:00,2026-10-09: IP support protocols: ARP, DHCP, ICMP, NAT overview (2h),1h theory + 1h practice
+2026-10-10,2026-10-10T09:00:00,2026-10-10T15:00:00,2026-10-10: Full 3-hour subjectwise mock + 3h review (6h),6h subject mock + review (09:00-15:00)
+2026-10-11,2026-10-11T09:00:00,2026-10-11T15:00:00,2026-10-11: Full 3-hour full-syllabus mock + 3h detailed error analysis (6h),6h full mock + review (09:00-15:00)
