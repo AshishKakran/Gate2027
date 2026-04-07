@@ -512,6 +512,7 @@
             <a href="#resources">📚 Resources</a>
             <a href="#routine">⏰ Daily Routine</a>
             <a href="#checkpoints">✅ Checkpoints</a>
+            <button id="exportBtn" style="margin-left: auto; background: #28a745; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-weight: 600; transition: all 0.3s ease;">📅 Export to Calendar</button>
         </nav>
 
         <!-- Main Content -->
@@ -1289,5 +1290,142 @@
             <p style="margin-top: 10px; font-size: 0.9em;">Remember: Consistency is the key to success. Stick to the plan, stay focused, and you will achieve your goals! 💪</p>
         </footer>
     </div>
+
+    <script>
+        // CSV to ICS Export Functionality
+        document.getElementById('exportBtn').addEventListener('click', async function() {
+            try {
+                // Fetch the schedule.csv file
+                const response = await fetch('schedule.csv');
+                if (!response.ok) throw new Error('Could not load schedule.csv');
+                const csvText = await response.text();
+                
+                // Parse CSV and convert to ICS
+                const icsContent = csvToIcs(csvText);
+                
+                // Create download link
+                const blob = new Blob([icsContent], { type: 'text/calendar' });
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'GATE_2026_Study_Plan.ics';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+            } catch (error) {
+                alert('Error exporting calendar: ' + error.message + '\n\nMake sure schedule.csv is in the same directory as this HTML file.');
+            }
+        });
+
+        function csvToIcs(csvText) {
+            const lines = csvText.trim().split('\n');
+            const headers = lines[0].split(',');
+            
+            // Find column indices
+            let dateIdx = headers.indexOf('Date');
+            let startIdx = headers.indexOf('Start');
+            let endIdx = headers.indexOf('End');
+            let summaryIdx = headers.indexOf('Summary');
+            let descIdx = headers.indexOf('Description');
+            
+            // ICS header
+            let ics = 'BEGIN:VCALENDAR\r\n';
+            ics += 'VERSION:2.0\r\n';
+            ics += 'PRODID:-//GATE 2026 Study Plan//EN\r\n';
+            ics += 'CALSCALE:GREGORIAN\r\n';
+            ics += 'X-WR-CALNAME:GATE 2026 CS Study Plan\r\n';
+            ics += 'X-WR-TIMEZONE:Asia/Kolkata\r\n';
+            ics += 'X-WR-CALDESC:Complete GATE 2026 Computer Science Study Schedule\r\n';
+            
+            // Parse each event
+            for (let i = 1; i < lines.length; i++) {
+                if (lines[i].trim() === '') continue;
+                
+                // Simple CSV parsing (handles basic cases)
+                const values = parseCSVLine(lines[i]);
+                
+                if (values.length < 5) continue;
+                
+                const date = values[dateIdx] || '';
+                const startTime = values[startIdx] || '';
+                const endTime = values[endIdx] || '';
+                const summary = values[summaryIdx] || '';
+                const description = values[descIdx] || '';
+                
+                if (!startTime || !endTime) continue;
+                
+                // Convert datetime to ICS format (remove colons and hyphens)
+                const dtstart = startTime.replace(/[:-]/g, '');
+                const dtend = endTime.replace(/[:-]/g, '');
+                const dtstamp = new Date().toISOString().replace(/[:-]/g, '').split('.')[0] + 'Z';
+                
+                // Create unique ID
+                const uid = `gate-${date}-${summary.replace(/[^a-z0-9]/gi, '')}@gate2026.local`;
+                
+                // Add event
+                ics += 'BEGIN:VEVENT\r\n';
+                ics += `DTSTART:${dtstart}\r\n`;
+                ics += `DTEND:${dtend}\r\n`;
+                ics += `DTSTAMP:${dtstamp}\r\n`;
+                ics += `UID:${uid}\r\n`;
+                ics += `SUMMARY:${escapeIcsText(summary)}\r\n`;
+                ics += `DESCRIPTION:${escapeIcsText(description)}\r\n`;
+                ics += 'LOCATION:Study\r\n';
+                ics += 'CATEGORIES:Study,GATE\r\n';
+                ics += 'STATUS:CONFIRMED\r\n';
+                ics += 'SEQUENCE:0\r\n';
+                ics += 'END:VEVENT\r\n';
+            }
+            
+            // ICS footer
+            ics += 'END:VCALENDAR\r\n';
+            
+            return ics;
+        }
+
+        function parseCSVLine(line) {
+            const result = [];
+            let current = '';
+            let insideQuotes = false;
+            
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                
+                if (char === '"') {
+                    insideQuotes = !insideQuotes;
+                } else if (char === ',' && !insideQuotes) {
+                    result.push(current.trim());
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            
+            result.push(current.trim());
+            return result;
+        }
+
+        function escapeIcsText(text) {
+            if (!text) return '';
+            return text
+                .replace(/\\/g, '\\\\')
+                .replace(/;/g, '\\;')
+                .replace(/,/g, '\\,')
+                .replace(/\n/g, '\\n')
+                .replace(/\r/g, '\\r');
+        }
+
+        // Hover effect for export button
+        document.getElementById('exportBtn').addEventListener('mouseenter', function() {
+            this.style.background = '#20c997';
+            this.style.transform = 'scale(1.05)';
+        });
+
+        document.getElementById('exportBtn').addEventListener('mouseleave', function() {
+            this.style.background = '#28a745';
+            this.style.transform = 'scale(1)';
+        });
+    </script>
 </body>
 </html>
